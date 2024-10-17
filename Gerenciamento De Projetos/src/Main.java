@@ -1,9 +1,11 @@
+import javax.swing.*;
 import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
+		Window window = new Window();
 		Project project = new Project(0, null, null, null, null, null,null);
 		Team team = new Team(0, null, null, null,null);
 		Member member = new Member(0, null, null,null , null, null);
