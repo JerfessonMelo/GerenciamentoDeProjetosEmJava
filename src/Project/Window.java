@@ -15,11 +15,12 @@ public class Window {
         JPanel panel = new JPanel();
         panel.setBackground(Color.LIGHT_GRAY);
         panel.setLayout(new FlowLayout());
+
         JButton button1 = new JButton("Home");
         JButton button2 = new JButton("Configurações");
 
-        window.add(button1);    
-        window.add(button2);
+        panel.add(button1);    
+        panel.add(button2);
         window.add(panel);
         
         JMenuBar menuBar = new JMenuBar();
