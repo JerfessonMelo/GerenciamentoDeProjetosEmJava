@@ -4,9 +4,8 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 public class Window {
-    private JFrame window;
 
-    public Window() {
+    public static void main(String[] args) {
         JFrame window = new JFrame("Test");
         window.setSize(640,400);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
