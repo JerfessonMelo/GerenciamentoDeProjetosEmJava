@@ -1,5 +1,3 @@
-package Project;
-
 public class Maneger extends Member {
 
 	private String department;
